@@ -1,0 +1,67 @@
+html{
+    background-image: url("../image/v935-aum-16.jpg");
+    background-size: 100%;
+}
+body{
+  margin: 2%;
+}
+.font{
+  font-size: 20px;
+}
+p.errorword{
+  font-size: 18px;
+  color: red;
+}
+p{
+  color: white;
+  font-size: 25px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+input{
+  text-align: center;
+  width: 70%;
+  border: 1px solid #ebebeb;
+  border-radius: 20px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+}
+.form{
+  font-size: 20px;
+  padding: 50px 50px;
+  text-align: center;
+  background: rgba(124, 69, 69, 0.9);
+  border-color: #222;
+  border-radius: 20px;
+  box-shadow: 12px 12px 24px#222;
+}
+.container {
+  width: 660px;
+  position: relative;
+  margin: auto;
+}
+.signup-content {
+  background: rgba(124, 69, 69, 0.9);
+  border-color: #222;
+  border-radius: 20px;
+  box-shadow: 12px 12px 24px#222;
+  padding: 50px 85px;
+}
+  @media screen and (max-width: 768px) {
+    .container {
+      width: calc(100% - 40px);
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .signup-content {
+      padding: 50px 25px;
+    }
+  }
+  
